@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PlantProj</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>My Plants 🌱🪴🌿</h1>
+    
+    
+  <h2>Plants List</h2>
+  <button id="getPlants">Get All Plants</button>
+  <ul id="plantList"></ul>
+
+  <!-- Form to add new plant -->
+  <h3>Add New Plant</h3>
+  <form id="addPlantForm">
+    <input type="text" id="name" placeholder="Plant Name" required>
+    <input type="text" id="type" placeholder="Plant Type" required>
+    <input type="text" id="waterFrequency" placeholder="Water Frequency" required>
+    <input type="text" id="lightRequirement" placeholder="Light Requirement" required>
+    <textarea id="description" placeholder="Description"></textarea>
+    <button type="submit">Add Plant</button>
+  </form>
+
+  <br>
+
+  <!-- Form to edit a plant already in system-->
+  <h3>Edit Plant</h3>
+  <form id="editPlantForm" style="display: none;">
+    <input type="hidden" id="editPlantId">
+    <input type="text" id="editName" placeholder="Plant Name" required>
+    <input type="text" id="editType" placeholder="Plant Type" required>
+    <input type="text" id="editWaterFrequency" placeholder="Water Frequency" required>
+    <input type="text" id="editLightRequirement" placeholder="Light Requirement" required>
+    <textarea id="editDescription" placeholder="Description"></textarea>
+    <button type="submit">Update Plant</button>
+  </form>
+
+  <br>
+  
+
+  <br><br>
+
+  </div>
+  
+</body>
+<script src="index.js"></script>
+
+</html>
