@@ -4,8 +4,6 @@ I wrote a piece of software to interact with a MongoDB Database. The majority of
 
 I wrote this to provide a place for users to create a list of their plants. They can determine if they are indoor or outdoor, different light and watering needs, and other descriptions to keep track of health or other information.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of the cloud database.}
-
 [Software Demo Video](https://youtu.be/vhjUrDBzXDY)
 
 # Cloud Database
